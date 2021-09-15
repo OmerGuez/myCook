@@ -19,10 +19,10 @@ app.use(bodyParser.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const DB = 'mongodb://localhost:=27017/Users';/*process.env.DATABASE.replace(
+const DB = process.env.DATABASE.replace(
   "<PASSWORD>",
   process.env.DATABASE_PASSWORD
-);*/
+);
 
 mongoose
   .connect(DB, {

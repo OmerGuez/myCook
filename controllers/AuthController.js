@@ -1,4 +1,4 @@
-//const db = require("../models");
+/*const db = require("../models");*/
 const config = require("../config/auth.config");
 
 const User = require("../models/UserModel");

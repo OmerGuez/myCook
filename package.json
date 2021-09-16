@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "build": "cd ./Client && ionic serve",
+    "build": "cd ./Client && vue-cli-service.cmd serve",
     "dev": "nodemon server.js"
   },
   "repository": {

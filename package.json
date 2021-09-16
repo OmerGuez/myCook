@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "build": "cd ./Client && npm run buid && npm run serve",
+    "build": "cd ./Client && npm run build && npm run serve",
     "dev": "nodemon server.js"
   },
   "repository": {

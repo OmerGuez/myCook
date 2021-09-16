@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "build": "cd ./Client && ionic serve",
+    "build": "cd ./Client && npm start",
     "dev": "nodemon server.js"
   },
   "repository": {
@@ -35,7 +35,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.9",
     "morgan": "^1.10.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "serve-static": "^1.14.1"
   },
   "engines": {
     "node": ">=10.0.0"

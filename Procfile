@@ -1,2 +1,2 @@
 web: npm start
-web: sh -c 'cd ./client/' && ionic
+web: sh -c 'cd ./client/ && ionic serve'

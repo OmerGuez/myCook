@@ -1,3 +1,2 @@
-<<<<<<< HEAD
 web: npm start
 

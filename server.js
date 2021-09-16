@@ -10,7 +10,7 @@ dotenv.config({ path: "./config.env" });
 var corsOptions = {
   origin: "http://localhost:8100/",
 };
-
+app.use(express.static('Client'));
 app.use(cors());
 
 // parse requests of content-type - application/json

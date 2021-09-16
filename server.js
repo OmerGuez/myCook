@@ -42,6 +42,11 @@ app.get("/", (req, res) => {
 require("./routes/authRoutes")(app);
 require("./routes/usersRoutes")(app);
 
+const express = require('express');
+const serveStatic = require("serve-static")
+const path = require('path');
+app.use(serveStatic(path.join("./Client/", 'dist')));
+
 //START THE SERVER
 const port = process.env.PORT || 3000;
 app.listen(port, () => {

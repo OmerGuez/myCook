@@ -53,6 +53,8 @@
     "eslint-plugin-vue": "^7.0.0-0",
     "vue-jest": "^5.0.0-0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  },
   "description": "An Ionic project"
 }

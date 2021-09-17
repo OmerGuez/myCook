@@ -4,7 +4,7 @@
   "description": "An app for storing and sharing you favorite cooks",
   "main": "app.js",
   "scripts": {
-    "start": "cd ./Client && npm start",
+    "start": "cd ./Client && npm run serve",
     "build": "cd ./Client && ls | echo",
     "dev": "nodemon server.js"
   },

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "dev": "concurrently --kill-others \"npm start\" \"npm run serve\"",
+    "dev": "concurrently --kill-others \"npm run serve\" \"npm start\"",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",

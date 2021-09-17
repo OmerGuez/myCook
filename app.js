@@ -13,11 +13,19 @@ app.use(function (req, res, next) {
   next();
 });
 
+cooksRouter = require("./routes/cooksRoutes");
+userRouter = require("./routes/usersRoutes");
+
 //MIDDLEWARES
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
 app.use(express.json());
 // app.use(cors());
+
+// ROUTES
+//the version is for branching out from the current version from the current version without braking v1 for others that use v1
+app.use("/api/v1/users", userRouter);
+app.use("/api/v1/cooks", cooksRouter);
 
 module.exports = app;

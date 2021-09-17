@@ -20,9 +20,25 @@
     "core-js": "^3.6.5",
     "vue": "^3.2.1",
     "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.2"
-  },
-  "devDependencies": {
+    "vuex": "^4.0.2",
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "prettier": "^2.3.2",
     "@capacitor/cli": "3.2.0",
     "@types/jest": "^24.0.19",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -33,9 +49,11 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0-0",
     "@vue/test-utils": "^2.0.0-0",
-    "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "vue-jest": "^5.0.0-0"
+  },
+  "devDependencies": {
+
   },
   "description": "An Ionic project"
 }

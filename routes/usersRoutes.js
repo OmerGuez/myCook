@@ -1,5 +1,5 @@
 const express = require("express");
-const authJwt = require("../Middlewares/authJwt");
+const authJwt = require("../middlewares/authJwt");
 const usersController = require("../controllers/usersController");
 
 module.exports = function(app) {

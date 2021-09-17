@@ -51,10 +51,9 @@
     "@vue/compiler-sfc": "^3.0.0-0",
     "@vue/test-utils": "^2.0.0-0",
     "eslint-plugin-vue": "^7.0.0-0",
-    "vue-jest": "^5.0.0-0"
-  },
-  "devDependencies": {
+    "vue-jest": "^5.0.0-0",
     "concurrently": "^6.2.1"
   },
+  "devDependencies": {},
   "description": "An Ionic project"
 }

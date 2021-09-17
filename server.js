@@ -38,10 +38,6 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to our application." });
 });
 
-// routes
-require("../myCook/routes/authRoutes")(app);
-require("../myCook/routes/usersRoutes")(app);
-
 //START THE SERVER
 const port = process.env.PORT || 3000;
 app.listen(port, () => {

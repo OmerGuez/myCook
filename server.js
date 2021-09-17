@@ -39,8 +39,8 @@ app.get("/", (req, res) => {
 });
 
 // routes
-require("../myCook/routes/authRoutes")(app);
-require("../myCook/routes/usersRoutes")(app);
+require("./routes/authRoutes")(app);
+require("./routes/usersRoutes")(app);
 
 //START THE SERVER
 const port = process.env.PORT || 3000;

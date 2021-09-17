@@ -86,7 +86,7 @@ const store = createStore({
     async addCook(context, cookData) {
       //here i will post the new cook
       //debugger;
-      const response = await fetch("http://localhost:3000/api/v1/cooks", {
+      const response = await fetch("https://cookbookfrontend.herokuapp.com/api/v1/cooks", {
         method: "POST",
         body: JSON.stringify({
           //username: payload.username,

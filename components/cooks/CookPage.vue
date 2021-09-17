@@ -59,7 +59,7 @@ export default {
         return this.Cookt;
       }
       //debugger;
-      fetch("http://localhost:3000/api/v1/cooks")
+      fetch("https://cookbookfrontend.herokuapp.com/api/v1/cooks")
         .then((response) => {
           //debugger;
           if (response.ok) {

@@ -1,7 +1,7 @@
 import router from "./../../../router/index.js";
 export default {
   async login(context, payload) {
-    const response = await fetch("http://localhost:3000/api/test/signin", {
+    const response = await fetch("https://cookbookfrontend.herokuapp.com/api/test/signin", {
       method: "POST",
       body: JSON.stringify({
         //username: payload.username,
@@ -35,7 +35,7 @@ export default {
   },
   async signup(context, payload) {
     //debugger;
-    const response = await fetch("http://localhost:3000/api/test/signup", {
+    const response = await fetch("https://cookbookfrontend.herokuapp.com/api/test/signup", {
       method: "POST",
       body: JSON.stringify({
         username: payload.username,

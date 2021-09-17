@@ -21,7 +21,7 @@ export default {
   methods: {
     init() {
       debugger;
-      fetch("http://localhost:3000/api/v1/cooks")
+      fetch("https://cookbookfrontend.herokuapp.com/api/v1/cooks")
         .then((response) => {
           if (response.ok) {
             return response.json();

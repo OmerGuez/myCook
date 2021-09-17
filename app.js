@@ -17,7 +17,7 @@ cooksRouter = require("./routes/cooksRoutes");
 userRouter = require("./routes/usersRoutes");
 
 //MIDDLEWARES
-if (process.env.NODE_ENV === "development") {
+if (process.env.NODE_ENV === "production") {
   app.use(morgan("dev"));
 }
 app.use(express.json());
